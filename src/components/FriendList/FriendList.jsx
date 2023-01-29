@@ -7,11 +7,11 @@ export const FriendList = ({ stats }) => {
     <Section>
       {stats.map(stat => (
         <FriendBox key={stat.id}>
-          <FriendCard>
-            status={stat.isOnline}
+          <FriendCard
+            isOnline={stat.isOnline}
             avatar={stat.avatar}
-            friendName={stat.name}
-          </FriendCard>
+            name={stat.name}
+          />
         </FriendBox>
       ))}
     </Section>

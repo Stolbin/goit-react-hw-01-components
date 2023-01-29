@@ -4,7 +4,7 @@ import { getRandomColor } from 'utils/randomColor';
 export const Section = styled.section`
   background: #ebebeb;
   padding: 20px;
-  min-width: 20%;
+  width: 500px;
   border: 1px solid gray;
   border-radius: 8px;
   padding-top: 25px;
@@ -49,29 +49,3 @@ export const StatsPercentage = styled.section`
   font-weight: 600;
   color: #f1f1f5;
 `;
-
-// import PropTypes from 'prop-types';
-// import { FriendListItem } from './FriendListItem';
-// import { AllFriends, Friend } from './FriendsList.styled';
-
-// export const FriendList = ({ friends }) => (
-//   <AllFriends>
-//     {friends.map(friend => (
-//       <Friend key={friend.id}>
-//         <FriendListItem
-//           avatar={friend.avatar}
-//           name={friend.name}
-//           isOnline={friend.isOnline}
-//         />
-//       </Friend>
-//     ))}
-//   </AllFriends>
-// );
-
-// FriendList.propTypes = {
-//   friends: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.number.isRequired,
-//     }).isRequired
-//   ).isRequired,
-// };

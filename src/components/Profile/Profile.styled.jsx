@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 export const Boxs = styled.section`
   transition: scale 450ms ease;
+  max-width: 500px;
   &:hover {
     scale: 1.015;
     transition: scale 650ms ease;
@@ -11,7 +12,6 @@ export const Boxs = styled.section`
 export const Card = styled.div`
   background: #ebebeb;
   padding: 20px;
-  max-width: 303px;
   border: 1px solid gray;
   border-radius: 8px;
   padding-top: 25px;

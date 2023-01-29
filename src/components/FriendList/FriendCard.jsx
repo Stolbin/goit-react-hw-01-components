@@ -3,14 +3,15 @@ import {
   Status,
   Avatar,
   FriendName,
+  FriendCardItem,
 } from 'components/FriendList/FriendList.styled';
 
 export const FriendCard = ({ avatar, name, isOnline }) => (
-  <>
-    <Status status={isOnline}></Status>
+  <FriendCardItem>
+    <Status isOnline={isOnline}></Status>
     <Avatar src={avatar} alt={name} />
     <FriendName>{name}</FriendName>
-  </>
+  </FriendCardItem>
 );
 
 FriendCard.propTypes = {
