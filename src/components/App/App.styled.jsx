@@ -8,8 +8,6 @@ export const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
   color: #010101;
-  margin-left: auto;
-  margin-right: auto;
 `;
 
 export const CardTex = styled.p`
