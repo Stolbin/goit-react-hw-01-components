@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import {
+  Boxs,
   Card,
   CardDescription,
   Avatar,
@@ -7,7 +8,7 @@ import {
   Tag,
   Location,
   States,
-  BoxState,
+  BoxStat,
   Label,
   Quantity,
 } from './Profile.styled';
@@ -22,29 +23,31 @@ export const Profile = ({
   },
 }) => {
   return (
-    <Card>
-      <CardDescription>
-        <Avatar src={avatar} alt={username} />
-        <UserName>{username}</UserName>
-        <Tag>@{tag}</Tag>
-        <Location>{location}</Location>
-      </CardDescription>
+    <Boxs>
+      <Card>
+        <CardDescription>
+          <Avatar src={avatar} alt={username} />
+          <UserName>{username}</UserName>
+          <Tag>@{tag}</Tag>
+          <Location>{location}</Location>
+        </CardDescription>
 
-      <States>
-        <BoxState>
-          <Label>Followers</Label>
-          <Quantity>{followers}</Quantity>
-        </BoxState>
-        <BoxState>
-          <Label>Views</Label>
-          <Quantity>{views}</Quantity>
-        </BoxState>
-        <BoxState>
-          <Label>Likes</Label>
-          <Quantity>{likes}</Quantity>
-        </BoxState>
-      </States>
-    </Card>
+        <States>
+          <BoxStat>
+            <Label>Followers</Label>
+            <Quantity>{followers}</Quantity>
+          </BoxStat>
+          <BoxStat>
+            <Label>Views</Label>
+            <Quantity>{views}</Quantity>
+          </BoxStat>
+          <BoxStat>
+            <Label>Likes</Label>
+            <Quantity>{likes}</Quantity>
+          </BoxStat>
+        </States>
+      </Card>
+    </Boxs>
   );
 };
 

@@ -1,5 +1,13 @@
 import styled from '@emotion/styled';
 
+export const Boxs = styled.section`
+  transition: scale 450ms ease;
+  &:hover {
+    scale: 1.015;
+    transition: scale 650ms ease;
+  }
+`;
+
 export const Card = styled.div`
   background: #ebebeb;
   padding: 20px;
@@ -13,9 +21,12 @@ export const Card = styled.div`
 export const CardDescription = styled.div`
   backgraund: #fff;
   text-align: center;
+  display: block;
 `;
 
 export const Avatar = styled.img`
+  margin-left: auto;
+  margin-right: auto;
   width: 60%;
   background-color: #9c9c1b;
   border-radius: 50%;
@@ -50,7 +61,7 @@ export const States = styled.div`
   margin-top: 40px;
 `;
 
-export const BoxState = styled.div`
+export const BoxStat = styled.div`
   width: calc(100% / 3);
   border: 1px solid #f1f1f5;
   border-radius: 10px;
