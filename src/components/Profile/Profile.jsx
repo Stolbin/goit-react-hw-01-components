@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
 import {
   Card,
-  BoxState,
+  CardDescription,
   Avatar,
   UserName,
   Tag,
   Location,
   States,
   BoxState,
+  Label,
+  Quantity,
 } from './Profile.styled';
 
 export const Profile = ({
@@ -30,16 +32,16 @@ export const Profile = ({
 
       <States>
         <BoxState>
-          <FolowwersTitle>Followers</FolowwersTitle>
-          <FolowwersCounts>{followers}</FolowwersCounts>
+          <Label>Followers</Label>
+          <Quantity>{followers}</Quantity>
         </BoxState>
         <BoxState>
-          <ViewsTitle>Views</ViewsTitle>
-          <ViewsCounts>{views}</ViewsCounts>
+          <Label>Views</Label>
+          <Quantity>{views}</Quantity>
         </BoxState>
         <BoxState>
-          <LikesTitle>Likes</LikesTitle>
-          <LikesCounts>{likes}</LikesCounts>
+          <Label>Likes</Label>
+          <Quantity>{likes}</Quantity>
         </BoxState>
       </States>
     </Card>

@@ -31,3 +31,11 @@ export const States = styled.div`
 export const BoxState = styled.div`
   padding: 10px;
 `;
+
+export const Label = styled.p`
+  fontsize: 30;
+`;
+
+export const Quantity = styled.p`
+  fontsize: 30;
+`;
