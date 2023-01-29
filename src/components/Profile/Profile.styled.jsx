@@ -28,7 +28,7 @@ export const Avatar = styled.img`
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  background-color: #9c9c1b;
+  background: linear-gradient(#0000ff, #ccff33);
   border-radius: 50%;
   padding: 10px;
   box-shadow: 1px 2px 10px #222;
