@@ -3,8 +3,7 @@ import styled from '@emotion/styled';
 export const CardContainer = styled.div`
     height: 100%;
     padding: 0px 30px 30px 30px;
-    display: flex;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
     color: '#010101;
