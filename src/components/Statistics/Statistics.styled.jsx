@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { getRandomColor } from 'utils/randomColor';
 
 export const Section = styled.section`
-  background: #ebebeb;
+  background: #dcdcdc;
   padding: 20px;
   width: 500px;
   border: 1px solid gray;
@@ -26,6 +26,7 @@ export const StatsList = styled.section`
   margin-top: 15px;
   display: flex;
   flex-direction: row;
+  gap: 5px;
 `;
 
 export const StatisticsItem = styled.section`

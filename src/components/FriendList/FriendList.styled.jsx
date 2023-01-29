@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.ul`
-  background: #ebebeb;
+  background: #dcdcdc;
   padding: 20px;
   width: 400px;
   border: 1px solid gray;
@@ -16,7 +16,7 @@ export const FriendBox = styled.li`
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 10px;
+  padding: 8px 10px 8px 10px;
 `;
 
 export const FriendCardItem = styled.div`

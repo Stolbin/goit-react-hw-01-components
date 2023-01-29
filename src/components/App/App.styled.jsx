@@ -8,6 +8,7 @@ export const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
   color: #010101;
+  background: #f8f8f8;
 `;
 
 export const CardTex = styled.p`
