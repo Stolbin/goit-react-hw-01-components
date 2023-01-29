@@ -1,14 +1,21 @@
 import styled from '@emotion/styled';
 
 export const Card = styled.div`
-  height: 100%;
+  background: rgb(201, 191, 191);
+  padding: 20px;
+  max-width: 303px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding-top: 24px;
+  box-shadow: 2px 2px 10px #e0e0e0;
 `;
 export const CardDescription = styled.div`
   backgraund: #fff;
+  text-align: center;
 `;
 
 export const Avatar = styled.img`
-  width: 200px;
+  width: 50%;
 `;
 
 export const UserName = styled.p`

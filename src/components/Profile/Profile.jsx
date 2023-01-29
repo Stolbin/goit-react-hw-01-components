@@ -24,7 +24,7 @@ export const Profile = ({
   return (
     <Card>
       <CardDescription>
-        <Avatar src={avatar} alt={username} class="avatar" />
+        <Avatar src={avatar} alt={username} />
         <UserName>{username}</UserName>
         <Tag>@{tag}</Tag>
         <Location>{location}</Location>
