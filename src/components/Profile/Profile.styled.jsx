@@ -1,42 +1,61 @@
 import styled from '@emotion/styled';
 
 export const Card = styled.div`
-  background: rgb(201, 191, 191);
+  background: #ebebeb;
   padding: 20px;
   max-width: 303px;
   border: 1px solid gray;
   border-radius: 8px;
-  padding-top: 24px;
+  padding-top: 25px;
   box-shadow: 2px 2px 10px #e0e0e0;
 `;
+
 export const CardDescription = styled.div`
   backgraund: #fff;
   text-align: center;
 `;
 
 export const Avatar = styled.img`
-  width: 50%;
+  width: 60%;
+  background-color: #9c9c1b;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 1px 2px 10px #222;
 `;
 
 export const UserName = styled.p`
-  fontsize: 40;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 0px;
 `;
 
 export const Tag = styled.p`
-  fontsize: 50;
-  fontweight: 400;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 0px;
 `;
 
 export const Location = styled.p`
-  fontsize: 40;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 0px;
 `;
 
 export const States = styled.div`
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
 `;
 
 export const BoxState = styled.div`
-  padding: 10px;
+  width: calc(100% / 3);
+  border: 1px solid #f1f1f5;
+  border-radius: 10px;
+  background-color: #d3d3d3;
+  text-align: center;
 `;
 
 export const Label = styled.p`
