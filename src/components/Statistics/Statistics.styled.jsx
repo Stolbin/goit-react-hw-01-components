@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { getRandomColor } from 'utils/randomColor';
+import { getRandomColor } from '../../utils/randomColor';
 
 export const Section = styled.section`
   background: #dcdcdc;

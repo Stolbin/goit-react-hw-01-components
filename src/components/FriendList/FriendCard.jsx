@@ -4,7 +4,7 @@ import {
   Avatar,
   FriendName,
   FriendCardItem,
-} from 'components/FriendList/FriendList.styled';
+} from './FriendList.styled';
 
 export const FriendCard = ({ avatar, name, isOnline }) => (
   <FriendCardItem>

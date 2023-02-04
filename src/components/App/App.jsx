@@ -2,10 +2,10 @@ import user from '../../data/user.json';
 import data from '../../data/data.json';
 import friends from '../../data/friends.json';
 import history from '../../data/history.json';
-import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statistics';
-import { FriendList } from 'components/FriendList/FriendList';
-import { Transactions } from 'components/Transactions/Transactions';
+import { Profile } from '../Profile/Profile';
+import { Statistics } from '../Statistics/Statistics';
+import { FriendList } from '../FriendList/FriendList';
+import { Transactions } from '../Transactions/Transactions';
 import { CardContainer, CardTex } from './App.styled';
 
 export const App = () => {

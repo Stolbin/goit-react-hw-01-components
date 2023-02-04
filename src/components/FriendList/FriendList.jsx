@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { FriendCard } from './FriendCard';
-import { Section, FriendBox } from 'components/FriendList/FriendList.styled';
+import { Section, FriendBox } from './FriendList.styled';
 
 export const FriendList = ({ stats }) => {
   return (
