@@ -1,7 +1,7 @@
 import user from '../Profile/user.json';
 import data from '../Statistics/data.json';
 import friends from '../FriendList/friends.json';
-import transactions from '../Transactions/transactions.json';
+import history from '../Transactions/history.json';
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
 import { FriendList } from 'components/FriendList/FriendList';
@@ -18,7 +18,7 @@ export const App = () => {
       <CardTex>Task 3</CardTex>
       <FriendList stats={friends} />
       <CardTex>Task 4</CardTex>
-      <Transactions els={transactions} />
+      <Transactions els={history} />
     </CardContainer>
   );
 };
