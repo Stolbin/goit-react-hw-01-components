@@ -1,5 +1,14 @@
 import PropTypes from 'prop-types';
-import { Section } from './Transactions.styled';
+import {
+  Section,
+  Table,
+  TableHeader,
+  TableRowHeader,
+  TableHeaderCell,
+  TableBody,
+  TableRow,
+  TableCell,
+} from './Transactions.styled';
 
 export const Transactions = ({ els }) => {
   return (
