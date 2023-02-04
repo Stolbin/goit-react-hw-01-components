@@ -28,13 +28,10 @@ export const TableHeader = styled.thead`
 `;
 export const TableRowHeader = styled.tr`
   border: 1px solid gray;
-  :nth-of-type(even) {
-    background-color: lightgrey;
-  }
 `;
 export const TableHeaderCell = styled.th`
   border-bottom: 2px solid black;
-  padding: 8px 0;
+  padding: 12px 0;
   :first-of-type {
     border-top-left-radius: 8px;
     border-right: 2px solid black;
@@ -49,9 +46,8 @@ export const TableBody = styled.tbody`
   font-weight: 600;
 `;
 export const TableRow = styled.tr`
-  border: 1px solid gray;
   :nth-of-type(even) {
-    background-color: lightgrey;
+    background-color: #e8e8e8;
   }
 `;
 export const TableCell = styled.td`
