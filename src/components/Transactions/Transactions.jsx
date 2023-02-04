@@ -36,7 +36,7 @@ export const Transactions = ({ els }) => {
   );
 };
 
-Transaction.propTypes = {
+Transactions.propTypes = {
   els: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,

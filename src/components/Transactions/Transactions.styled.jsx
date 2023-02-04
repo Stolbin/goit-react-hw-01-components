@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
+  width: 100%;
   background: #dcdcdc;
   padding: 20px;
   width: 500px;
@@ -9,10 +10,56 @@ export const Section = styled.section`
   padding-top: 25px;
   box-shadow: 2px 2px 10px #e0e0e0;
 `;
-export const Table = styled.table``;
-export const TableHeader = styled.thead``;
-export const TableRowHeader = styled.tr``;
-export const TableHeaderCell = styled.th``;
-export const TableBody = styled.tbody``;
-export const TableRow = styled.tr``;
-export const TableCell = styled.td``;
+export const Table = styled.table`
+  table-layout: initial;
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  color: gray;
+  overflow: hidden;
+  border-spacing: 0px;
+  box-shadow: 2px 2px 10px #e0e0e0;
+`;
+export const TableHeader = styled.thead`
+  color: #fff;
+  background-color: #4586ff;
+`;
+export const TableRowHeader = styled.tr`
+  border: 1px solid gray;
+  :nth-of-type(even) {
+    background-color: lightgrey;
+  }
+`;
+export const TableHeaderCell = styled.th`
+  border-bottom: 2px solid black;
+  padding: 8px 0;
+  :first-of-type {
+    border-top-left-radius: 8px;
+    border-right: 2px solid black;
+  }
+  :last-of-type {
+    border-top-right-radius: 8px;
+    border-left: 2px solid black;
+  }
+`;
+export const TableBody = styled.tbody`
+  text-transform: capitalize;
+  font-weight: 600;
+`;
+export const TableRow = styled.tr`
+  border: 1px solid gray;
+  :nth-of-type(even) {
+    background-color: lightgrey;
+  }
+`;
+export const TableCell = styled.td`
+  padding: 8px 0;
+  :first-of-type {
+    border-right: 2px solid black;
+  }
+  :last-of-type {
+    border-left: 2px solid black;
+  }
+`;
