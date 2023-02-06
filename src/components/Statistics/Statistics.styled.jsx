@@ -26,7 +26,7 @@ export const StatsList = styled.section`
   margin-top: 15px;
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 8px;
 `;
 
 export const StatisticsItem = styled.section`
@@ -36,6 +36,7 @@ export const StatisticsItem = styled.section`
   border-radius: 10px;
   background-color: ${getRandomColor};
   text-align: center;
+  box-shadow: 1px 2px 4px #222;
 `;
 
 export const StatsLabel = styled.section`
