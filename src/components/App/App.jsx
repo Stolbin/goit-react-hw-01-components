@@ -6,11 +6,12 @@ import { Profile } from '../Profile/Profile';
 import { Statistics } from '../Statistics/Statistics';
 import { FriendList } from '../FriendList/FriendList';
 import { Transactions } from '../Transactions/Transactions';
-import { CardContainer, CardTex } from './App.styled';
+import { CardContainer, CardTex, TitlePage } from './App.styled';
 
 export const App = () => {
   return (
     <CardContainer>
+      <TitlePage>React Homework №1</TitlePage>
       <CardTex>Task 1</CardTex>
       <Profile data={user} />
       <CardTex>Task 2</CardTex>
