@@ -4,10 +4,22 @@ export const Section = styled.section`
   width: 100%;
   background: #dcdcdc;
   padding: 20px;
-  width: 500px;
+  width: calc(100% - 20px);
   border: 1px solid gray;
   border-radius: 8px;
   box-shadow: 2px 2px 10px #e0e0e0;
+  @media (min-width: 425px) {
+    width: calc(100% - 50px);
+    max-width: 400px;
+  }
+  @media (min-width: 768px) {
+    width: 400px;
+  }
+  @media (min-width: 1200px) {
+    max-width: none;
+    width: 500px;
+    margin: 25px auto 0px auto;
+  }
 `;
 export const Table = styled.table`
   table-layout: initial;
@@ -30,7 +42,8 @@ export const TableRowHeader = styled.tr`
 `;
 export const TableHeaderCell = styled.th`
   border-bottom: 2px solid black;
-  padding: 12px 0;
+  padding: 8px;
+  font-size: 14px;
   :first-of-type {
     border-top-left-radius: 8px;
     border-right: 2px solid black;
@@ -38,6 +51,14 @@ export const TableHeaderCell = styled.th`
   :last-of-type {
     border-top-right-radius: 8px;
     border-left: 2px solid black;
+  }
+  @media (min-width: 425px) {
+    padding: 10px;
+    font-size: 16px;
+  }
+  @media (min-width: 768px) {
+    padding: 12px;
+    font-size: 20px;
   }
 `;
 export const TableBody = styled.tbody`
@@ -50,11 +71,20 @@ export const TableRow = styled.tr`
   }
 `;
 export const TableCell = styled.td`
-  padding: 8px 0;
+  padding: 6px;
+  font-size: 14px;
   :first-of-type {
     border-right: 2px solid black;
   }
   :last-of-type {
     border-left: 2px solid black;
+  }
+  @media (min-width: 425px) {
+    padding: 7px;
+    font-size: 16px;
+  }
+  @media (min-width: 768px) {
+    padding: 8px;
+    font-size: 18px;
   }
 `;
